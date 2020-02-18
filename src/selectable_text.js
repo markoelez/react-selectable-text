@@ -156,7 +156,7 @@ export default class SelectableText extends Component {
 	}
 }
 
-Selectable.propTypes = {
+SelectableText.propTypes = {
 	ranges: PropTypes.array,
 	id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
 	text: PropTypes.string,
