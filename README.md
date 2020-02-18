@@ -1,21 +1,25 @@
 # react-selectable-text
 
+## Install
+
+`npm install react-selectable-text`
+
 ## Usage
 
 ```javascript
 const handleSelect = selection => {
-  // deal with selection here
+	// deal with selection here
 }
 
 <SelectableText
-  ranges={[
-    { start: 0, end: 50 },
-    { start: 80, end: 120 }
-  ]}  
-  selectStyle={{ backgroundColor: '#ffcc80' }}
-  text={TEXT_STRING}
-  onSelect={handleSelect}
-  storeSelect={true}
+	ranges={[
+		{ start: 0, end: 50 },
+		{ start: 80, end: 120 }
+	]}
+	selectStyle={{ backgroundColor: '#ffcc80' }}
+	text={TEXT_STRING}
+	onSelect={handleSelect}
+	storeSelect={true}
 />
 ```
 
