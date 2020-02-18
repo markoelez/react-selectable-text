@@ -21,6 +21,11 @@
 		"react": "^16.12.0",
 		"webpack": "^4.41.6"
 	},
+	"homepage": "https://github.com/markoelez/react-selectable-text",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/markoelez/react-selectable-text"
+	},
 	"devDependencies": {
 		"@babel/cli": "^7.8.4",
 		"@babel/core": "^7.8.4",
