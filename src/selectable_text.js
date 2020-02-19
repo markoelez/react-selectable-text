@@ -16,7 +16,7 @@ export default class SelectableText extends Component {
 	shouldComponentUpdate(newProps, newState) {
 		// if new provided selections are different, re-render component
 		return (
-			newProps.ranges?.length != this.props.ranges?.length ||
+			newProps.ranges != this.props.ranges ||
 			newProps.text != this.props.text ||
 			newState.currentSelection != this.state.currentSelection
 		)
