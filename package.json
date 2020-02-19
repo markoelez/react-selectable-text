@@ -1,6 +1,6 @@
 {
 	"name": "react-selectable-text",
-	"version": "1.0.6",
+	"version": "1.0.7",
 	"description": "Text display with selection controls",
 	"main": "build/index.js",
 	"peerDependencies": {
