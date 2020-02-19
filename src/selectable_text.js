@@ -64,6 +64,7 @@ export default class SelectableText extends Component {
 		}
 		if (!selectionText || !selectionText.length) {
 			this.setState({ currentSelection: '' })
+			this.props.onEmptySelect
 			return false
 		}
 		const range = window.getSelection().getRangeAt(0)
@@ -165,5 +166,6 @@ SelectableText.propTypes = {
 	selectStyle: PropTypes.object,
 	style: PropTypes.object,
 	className: PropTypes.string,
-	storeSelect: PropTypes.bool
+	storeSelect: PropTypes.bool,
+	onEmptySelect: PropTypes.func
 }

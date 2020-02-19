@@ -31,3 +31,4 @@ const handleSelect = selection => {
 - `onSelect`: callback when a selection is made
 - `selectStyle`: style for selected text
 - `storeSelect`: whether to store current selection until new selection is made
+- `onEmptySelect`: callback for empty click (no text selected)
